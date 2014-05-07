@@ -6,6 +6,7 @@
   "permissions": [
     "tabs",
     "storage",
+    "*://codereview.zeevo.pl/*",
     "*://codereview.appspot.com/*",
     "*://breakpad.appspot.com/*",
     "*://chromiumcodereview.appspot.com/*",
@@ -28,6 +29,7 @@
   "content_scripts": [
     {
       "matches": [
+        "*://codereview.zeevo.pl/*",
         "*://codereview.appspot.com/*",
         "*://breakpad.appspot.com/*",
         "*://chromiumcodereview.appspot.com/*",
@@ -46,6 +48,7 @@
     },
     {
       "matches": [
+        "*://codereview.zeevo.pl/*",
         "*://chromiumcodereview.appspot.com/*",
         "*://breakpad.appspot.com/*",
         "*://codereview.appspot.com/*",
@@ -67,6 +70,7 @@
     },
     {
       "matches": [
+        "*://codereview.zeevo.pl/*/diff*",
         "*://chromiumcodereview.appspot.com/*/diff*",
         "*://breakpad.appspot.com/*/diff*",
         "*://codereview.appspot.com/*/diff*",
@@ -84,6 +88,7 @@
     },
     {
       "matches": [
+        "*://codereview.zeevo.pl/*/diff*",
         "*://codereview.appspot.com/*/diff*",
         "*://breakpad.appspot.com/*/diff*",
         "*://chromiumcodereview.appspot.com/*/diff*",
